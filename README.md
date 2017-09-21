@@ -1,14 +1,14 @@
-## Lambda Scheduled s3 CSV bulk Mailer
+# Lambda Scheduled s3 CSV bulk Mailer
 
-# Setup
+## Setup
 
-# IAM Role Policies needed
+## IAM Role Policies needed
 
  *SES (You will need to enable ses mail address)
  *LAMBDA
  *S3 (For bucket access)
  
-# Create a cloud watch event that triggers the lambda function
+## Create a cloud watch event that triggers the lambda function
 
 parameters
 
@@ -20,6 +20,6 @@ parameters
   "subject": "mail subject"
 }`
 
-# Configuration
+## Configuration
 
 Change the field paramenter in the handler, if your csv's 2nd field is not the email.
