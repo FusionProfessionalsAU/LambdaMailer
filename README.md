@@ -24,4 +24,4 @@ parameters
 
 ## Configuration
 
-Change the field paramenter in the handler, if your csv's 2nd field is not the email.
+Change the field paramenter in the handler line 38, if your csv's 2nd field is not the email.
