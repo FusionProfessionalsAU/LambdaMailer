@@ -1,12 +1,14 @@
-# Lambda Scheduled s3 CSV bulk Mailer
+# Lambda Scheduled S3 CSV Bulk Mailer
 
 ## Setup
 
 ## IAM Role Policies needed
 
- *SES (You will need to enable ses mail address)
- *LAMBDA
- *S3 (For bucket access)
+ * SES (You will need to enable ses mail address)
+ 
+ * LAMBDA
+ 
+ * S3 (For bucket access)
  
 ## Create a cloud watch event that triggers the lambda function
 
